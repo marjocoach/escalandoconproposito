@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1610" width="1400" height="1610" role="img" aria-label="Foto de la fundadora pendiente de reemplazo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f6083"/>
+      <stop offset="100%" stop-color="#2e4a63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1610" fill="url(#bg)"/>
+  <circle cx="700" cy="650" r="220" fill="rgba(247,250,252,0.12)"/>
+  <path d="M700 620a140 140 0 100-280 140 140 0 000 280zm0 60c-186 0-340 108-340 240v40h680v-40c0-132-154-240-340-240z" fill="rgba(247,250,252,0.22)" transform="translate(0,120)"/>
+  <text x="700" y="1120" text-anchor="middle" font-family="Inter, sans-serif" font-size="34" font-weight="600" fill="#f7fafc">Foto pendiente de reemplazo</text>
+  <text x="700" y="1170" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" fill="rgba(247,250,252,0.65)">Reemplazar por foto real de la fundadora</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Foto casual pendiente de reemplazo">
+  <defs>
+    <linearGradient id="bgAvatar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f6083"/>
+      <stop offset="100%" stop-color="#2e4a63"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bgAvatar)"/>
+  <circle cx="100" cy="82" r="34" fill="rgba(247,250,252,0.28)"/>
+  <path d="M40 172c0-40 27-64 60-64s60 24 60 64" fill="rgba(247,250,252,0.28)"/>
+</svg>
