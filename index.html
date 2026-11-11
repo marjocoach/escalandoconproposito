@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XBFCFCSWNP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-XBFCFCSWNP");
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sistemas con Propósito. El sistema operativo de las organizaciones con impacto</title>
-<meta name="description" content="Sistemas con Propósito ordena los procesos, la estrategia y los equipos de ONGs, edtech, empresas de impacto y negocios con misión que quieren profesionalizar su operación sin perder su esencia humana.">
+<title>Escalando con Propósito. De emprendimiento de bienestar a empresa que se sostiene</title>
+<meta name="description" content="Me asocio con emprendimientos de bienestar emocional que ya venden para convertirlos en empresa: validamos, ponemos precio, cerramos los primeros clientes y construimos las bases para crecer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=20260731c">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=20261111b">
 </head>
 <body>
 
+<div class="bg-orbs" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
 <header class="site-header">
   <div class="container nav">
-    <a class='nav-logo' href='/'>Escalando<span> con Propósito</span></a>
+    <a href="index.html" class="nav-logo">Escalando <span>con Propósito</span></a>
     <nav aria-label="Principal">
       <ul class="nav-links">
-        <li><a aria-current='page' href='/'>Inicio</a></li>
-        <li><a href='/metodologia'>Metodología</a></li>
-        <li><a href='/servicios'>Servicios</a></li>
-        <li><a href='/contacto'>Contacto</a></li>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="soluciones.html">Soluciones</a></li>
+        <li><a href="casos-de-exito.html">Casos de Éxito</a></li>
       </ul>
     </nav>
     <div class="nav-cta">
-      <!-- CTA principal: reutiliza el link de Google Calendar de EscalandoCS. Si Sistemas con Propósito necesita un calendario propio, reemplaza esta URL. -->
       <a href="https://calendar.app.google/FzGwmAzHEnLBb7UY6" class="btn btn-gold btn-primary-desktop" target="_blank" rel="noopener">Conversemos</a>
       <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
         <span class="nav-toggle-bars"><span></span><span></span><span></span></span>
@@ -32,10 +44,9 @@
     </div>
   </div>
   <div class="container nav-mobile-panel" data-nav-mobile>
-    <a aria-current='page' href='/'>Inicio</a>
-    <a href='/metodologia'>Metodología</a>
-    <a href='/servicios'>Servicios</a>
-    <a href='/contacto'>Contacto</a>
+    <a href="index.html" aria-current="page">Inicio</a>
+    <a href="soluciones.html">Soluciones</a>
+    <a href="casos-de-exito.html">Casos de Éxito</a>
     <a href="https://calendar.app.google/FzGwmAzHEnLBb7UY6" class="btn btn-gold" target="_blank" rel="noopener">Conversemos</a>
   </div>
 </header>
@@ -44,22 +55,30 @@
 
   <section class="hero">
     <div class="container hero-grid">
+      <svg class="hero-diagram hero-dots" viewBox="0 0 440 240" width="440" height="240" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="dotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6EE7B7"/>
+            <stop offset="100%" stop-color="#10B981"/>
+          </linearGradient>
+        </defs>
+        <path class="hd-line" style="animation-delay:0.3s" d="M 20 200 L 120 160" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>
+        <path class="hd-line" style="animation-delay:0.9s" d="M 120 160 L 220 170" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>
+        <path class="hd-line" style="animation-delay:1.5s" d="M 220 170 L 320 90" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>
+        <path class="hd-line" style="animation-delay:2.1s" d="M 320 90 L 418 32" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>
+        <circle class="hd-square" style="animation-delay:0s" cx="20" cy="200" r="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <circle class="hd-square" style="animation-delay:0.6s" cx="120" cy="160" r="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <circle class="hd-square" style="animation-delay:1.2s" cx="220" cy="170" r="9" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <circle class="hd-square" style="animation-delay:1.8s" cx="320" cy="90" r="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+        <circle class="hd-highlight" style="animation-delay:2.4s" cx="418" cy="32" r="16" fill="url(#dotGrad)"/>
+      </svg>
       <div class="hero-copy reveal">
-        <span class="eyebrow">Para organizaciones con propósito social, ambiental o educativo</span>
-        <h1>Sistemas Escalables con Propósito.</h1>
-        <p class="lede">Ayudo a ONGs, edtech, empresas de impacto y negocios con misión sostenible a ordenar su operación, profesionalizar sus procesos y generar ingresos más estables, sin perder la esencia humana que las hace distintas.</p>
+        <span class="eyebrow">Emprendimientos de bienestar emocional</span>
+        <h1>De la idea que transforma<br><span class="text-accent text-italic">a la empresa que se sostiene.</span></h1>
+        <p class="lede">Tu emprendimiento ya cambia vidas y ya vende. Me asocio contigo para convertirlo en una empresa: validamos, ponemos precio, cerramos tus primeros clientes y construimos las bases para crecer sin perder tu esencia.</p>
         <div class="hero-actions">
-          <a href="https://calendar.app.google/FzGwmAzHEnLBb7UY6" class="btn btn-primary" target="_blank" rel="noopener">
-            Conversemos
-          </a>
-          <a class='btn btn-ghost' href='/servicios'>Ver servicios</a>
-        </div>
-      </div>
-      <div class="hero-photo reveal">
-        <img src="assets/photos/marjorie-hero.jpg" alt="Marjorie Córdova Milla, fundadora de Sistemas con Propósito" width="1246" height="1400">
-        <div class="hero-photo-caption">
-          <strong>Marjorie Córdova Milla</strong>
-          Operaciones con propósito · Impacto social
+          <a href="https://calendar.app.google/FzGwmAzHEnLBb7UY6" class="btn btn-primary" target="_blank" rel="noopener">Quiero crecer</a>
+          <a href="#como-trabajamos" class="btn btn-ghost">Ver cómo trabajamos</a>
         </div>
       </div>
     </div>
@@ -68,70 +87,194 @@
   <section class="stats">
     <div class="container stats-grid">
       <div class="reveal">
-        <div class="stat-num" data-count="+10">0</div>
-        <p class="stat-label">años optimizando operaciones y generando ingresos sostenibles</p>
+        <div class="stat-num" data-count="12">0</div>
+        <p class="stat-label">años haciendo crecer negocios en Latinoamérica</p>
       </div>
       <div class="reveal">
-        <div class="stat-num" data-count="+15">0</div>
-        <p class="stat-label">países en Latinoamérica con procesos y equipos implementados</p>
+        <div class="stat-num" data-count="3X">0</div>
+        <p class="stat-label">ingresos por expansión en cuentas clave</p>
       </div>
       <div class="reveal">
-        <div class="stat-num" data-count="+50">0</div>
-        <p class="stat-label">profesionales de equipos comerciales y de atención capacitados</p>
+        <div class="stat-num" data-count="+5000">0</div>
+        <p class="stat-label">clientes B2B integrados tras una fusión</p>
       </div>
       <div class="reveal">
-        <div class="stat-num" data-count="+$100000">0</div>
-        <p class="stat-label">USD en ingresos recurrentes generados y protegidos</p>
+        <div class="stat-num">2–3</div>
+        <p class="stat-label">años de acompañamiento hasta que tu negocio se sostiene</p>
       </div>
+    </div>
+  </section>
+
+  <section class="pain">
+    <div class="container">
+      <div class="section-head center reveal">
+        <h2>Esto te está costando no tener una <span class="text-accent">estructura</span></h2>
+      </div>
+      <div class="pain-grid">
+        <div class="pain-card reveal">
+          <span class="pain-tag">Precio</span>
+          <h3>Cobras por intuición.</h3>
+          <p class="pain-stat">Sin conocer el mercado, <strong>cobras de menos y trabajas de más</strong>, o cobras de más y pierdes clientes que sí te necesitaban.</p>
+        </div>
+        <div class="pain-card reveal">
+          <span class="pain-tag">Clientes</span>
+          <h3>Vendes, pero no de forma predecible.</h3>
+          <p class="pain-stat">Tus clientes llegan por recomendación y <strong>no sabes cuántos tendrás el próximo mes</strong>.</p>
+        </div>
+        <div class="pain-card reveal">
+          <span class="pain-tag">Empresas</span>
+          <h3>Las empresas no te ven.</h3>
+          <p class="pain-stat">Tu trabajo transforma personas, pero <strong>no tienes la propuesta, la cotización ni el lenguaje</strong> para venderle a una empresa.</p>
+        </div>
+        <div class="pain-card reveal">
+          <span class="pain-tag">Tiempo</span>
+          <h3>Eres todo tu negocio.</h3>
+          <p class="pain-stat">Facilitas, vendes, cobras y respondes mensajes. <strong>Tu propósito se diluye en la operación</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="impact" id="como-trabajamos">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Cómo trabajamos</span>
+        <h2>De emprendimiento a empresa, <span class="text-accent">paso a paso</span></h2>
+      </div>
+      <div class="stat-card-grid">
+        <div class="stat-card reveal">
+          <div class="stat-card-num">01</div>
+          <h3>Validar</h3>
+          <p>Con workshops probamos tu propuesta de valor con clientes reales y definimos a quién le vendes y por qué te eligen.</p>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-card-num">02</div>
+          <h3>Ordenar</h3>
+          <p>Analizamos el mercado, definimos tus precios y armamos tu oferta: paquetes, cotizaciones y propuestas listas para enviar.</p>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-card-num">03</div>
+          <h3>Vender</h3>
+          <p>Salimos juntas a cerrar tus primeros clientes, incluidas empresas, con tu web y tu presencia digital funcionando.</p>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-card-num">04</div>
+          <h3>Sostener</h3>
+          <p>Construimos procesos, métricas y rutinas para que el negocio crezca sin depender solo de ti.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="value-prop">
+    <div class="container">
+      <div class="section-head center reveal">
+        <h2>Lo que realmente estás <span class="text-accent">comprando</span></h2>
+        <p class="lede">Esta no es una consultoría tradicional. Compras una socia que ejecuta.</p>
+      </div>
+      <div class="value-prop-grid">
+        <div class="value-prop-card reveal">
+          <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12M6 21h12"/><path d="M7 3c0 4 3 5.5 4.2 6.6.5.45.5 1.35 0 1.8C10 12.5 7 14 7 18v3"/><path d="M17 3c0 4-3 5.5-4.2 6.6-.5.45-.5 1.35 0 1.8C14 12.5 17 14 17 18v3"/></svg>
+          <h3>Tiempo y enfoque</h3>
+          <p>Mientras tú te dedicas a lo que transforma vidas, yo me encargo de que el negocio avance.</p>
+        </div>
+        <div class="value-prop-card reveal">
+          <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.2 8.5-7 10-3.8-1.5-7-5-7-10V6l7-3z"/></svg>
+          <h3>Cero ensayo y error</h3>
+          <p>Evitas cobrar mal, perseguir al cliente equivocado o gastar meses probando qué funciona.</p>
+        </div>
+        <div class="value-prop-card reveal">
+          <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M11 3 8 9l4 12 4-12-3-6"/><path d="M2 9h20"/></svg>
+          <h3>Experiencia de empresa grande</h3>
+          <p>Lo que aprendí haciendo crecer Glovo, PedidosYa, Betterfly y Atom, adaptado al tamaño y la esencia de tu emprendimiento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="takeaways">
+    <div class="container takeaways-grid">
+      <div class="reveal">
+        <h2>Qué te <span class="text-accent">llevas</span></h2>
+        <p class="lede">Los informes se archivan; los sistemas se usan. Esto es lo que queda funcionando en tu negocio.</p>
+      </div>
+      <ul class="takeaways-list">
+          <li class="reveal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M6 10.4l2.6 2.6L14 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Una oferta con precios validados en el mercado</span></li>
+          <li class="reveal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M6 10.4l2.6 2.6L14 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cotizaciones y propuestas listas para empresas</span></li>
+          <li class="reveal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M6 10.4l2.6 2.6L14 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tu web funcionando</span></li>
+          <li class="reveal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M6 10.4l2.6 2.6L14 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tus primeros clientes cerrados</span></li>
+          <li class="reveal"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M6 10.4l2.6 2.6L14 7.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Procesos y métricas para seguir creciendo</span></li>
+      </ul>
     </div>
   </section>
 
   <section class="about">
-    <div class="container about-block">
-      <div class="reveal">
-        <span class="eyebrow">Sobre mí</span>
-        <h2>Creo sistemas que sostienen el crecimiento.</h2>
+    <div class="container about-solo">
+      <div class="about-solo-photo reveal">
+        <div class="about-photo-card">
+          <div class="about-photo-frame">
+            <img src="assets/photos/marjorie.jpg" alt="Marjorie Córdova, fundadora de Escalando con Propósito">
+            <span class="about-photo-badge">Founder</span>
+            <a class="about-photo-linkedin" href="https://www.linkedin.com/in/marjorie-cordova-291a7262/" target="_blank" rel="noopener" aria-label="LinkedIn de Marjorie Córdova">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="about-photo-info">
+          <h4 class="about-photo-name">Marjorie Córdova M.</h4>
+          <p class="about-photo-expertise"><strong>Business Developer &amp; Growth</strong> · Ingeniera Industrial (PUCP) · Coach (EPTI)</p>
+        </div>
       </div>
-      <div class="reveal">
-        <p class="lede">Doce años liderando Operaciones Comerciales y Customer Success (en startups tech y empresas tradicionales) me enseñaron a diseñar sistemas que sostienen el crecimiento sin quemar al equipo. He estado en la trinchera reduciendo costos e incrementando ingresos, convencida de que no se trata de trabajar más, sino de construir un sistema que funcione.</p>
+      <div class="about-solo-text">
+        <span class="eyebrow reveal">Quiénes somos</span>
+        <h2 class="about-title reveal">Somos Escalando con <span class="text-accent text-italic">Propósito</span></h2>
+        <div class="about-solo-body reveal">
+          <p>Hola, soy Marjorie. Durante 12 años ayudé a crecer a empresas como Glovo, PedidosYa, Betterfly y Atom, y fui Country Manager de VMove en Perú.</p>
+          <p>Soy Ingeniera Industrial de la PUCP y coach formada en la EPTI. Uno las dos cosas: estructura, números y procesos, sin perder de vista a las personas.</p>
+          <p>Hoy pongo esa experiencia al servicio de quienes cuidan el bienestar emocional de otros, para que su propósito también sea un negocio que se sostiene.</p>
+        </div>
+
+        <div class="certs">
+          <h3 class="certs-title certs-toggle reveal" data-expand-trigger="certs-detail" role="button" tabindex="0" aria-expanded="false" aria-controls="certs-detail">
+            <span>Certificaciones</span>
+            <svg class="price-card-toggle-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </h3>
+          <div class="price-card-expand" id="certs-detail">
+            <div class="price-card-expand-inner">
+              <div class="certs-grid">
+                <div class="cert-card">
+                  <div class="cert-image"><img src="https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=b7q7c6mp&variant=medium" alt="Certificado: Customer Success for Impact" loading="lazy"></div>
+                  <h4>Customer Success for Impact</h4>
+                  <p class="cert-date">Enero 2025</p>
+                  <p class="cert-issuer">Winning by Design</p>
+                </div>
+                <div class="cert-card">
+                  <div class="cert-image"><img src="https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=djauz74a&variant=medium" alt="Certificado: Asana Administrator Certificate" loading="lazy"></div>
+                  <h4>Asana Administrator Certificate</h4>
+                  <p class="cert-date">Junio 2026</p>
+                  <p class="cert-issuer">Asana</p>
+                </div>
+                <div class="cert-card">
+                  <div class="cert-image"><img src="https://pdf.ms.credential.net/badge/image?env=production&credential=0pr7yrdq" alt="Certificado: Alineación del liderazgo a la Transformación Digital" loading="lazy"></div>
+                  <h4>Alineación del liderazgo a la Transformación Digital</h4>
+                  <p class="cert-date">Febrero 2026</p>
+                  <p class="cert-issuer">Tecnológico de Monterrey</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="value">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="eyebrow">Cómo trabajo</span>
-        <h2>Sistemas, no solo consultoría.</h2>
-        <p class="lede">Un informe se archiva. Un sistema se usa. Al terminar cada proyecto, algo queda funcionando dentro de tu organización.</p>
-      </div>
-      <div class="value-grid">
-        <div class="value-card reveal">
-          <div class="num">01</div>
-          <h3>Un proceso documentado</h3>
-          <p>Flujos de trabajo de extremo a extremo. No una recomendación general, sino el paso a paso que tu equipo puede ejecutar desde el día siguiente.</p>
-        </div>
-        <div class="value-card reveal">
-          <div class="num">02</div>
-          <h3>Un dashboard funcionando</h3>
-          <p>Datos que dejan de vivir en hojas de cálculo sueltas y pasan a un tablero que se consulta cada semana para decidir, incluso con recursos limitados.</p>
-        </div>
-        <div class="value-card reveal">
-          <div class="num">03</div>
-          <h3>Un equipo capacitado</h3>
-          <p>Personas que entienden el porqué detrás del sistema, no solo el cómo, y que pueden sostenerlo sin depender de mí.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-final">
+  <section class="cta-final cta-final-home">
     <div class="container services-cta reveal">
       <div>
-        <h3>¿Por dónde empezar a ordenar tu operación?</h3>
-        <p>Conoce los formatos con los que trabajo hoy con organizaciones con propósito.</p>
+        <h3>Tu propósito merece un negocio que lo sostenga</h3>
+        <p>Conversemos 20 minutos sobre dónde está hoy tu emprendimiento.</p>
       </div>
-      <a class='btn btn-gold' href='/servicios'>Ver servicios</a>
+      <a href="https://calendar.app.google/FzGwmAzHEnLBb7UY6" class="btn btn-gold" target="_blank" rel="noopener">Quiero conversar</a>
     </div>
   </section>
 
@@ -141,24 +284,27 @@
   <div class="container">
     <div class="footer-top">
       <div>
-        <div class="footer-logo">Escalando<span> con Propósito</span></div>
-        <p class="footer-tagline">El sistema operativo de las organizaciones con propósito.</p>
+        <div class="footer-logo">Escalando <span>con Propósito</span></div>
+        <p class="footer-tagline">Desarrollamos emprendimientos de bienestar emocional hasta que se sostienen solos.</p>
       </div>
       <div class="footer-links">
-        <a href='/'>Inicio</a>
-        <a href='/metodologia'>Metodología</a>
-        <a href='/servicios'>Servicios</a>
-        <a href='/contacto'>Contacto</a>
-        <a href="https://www.linkedin.com/in/marjorie-cordova-291a7262/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="index.html" aria-current="page">Inicio</a>
+        <a href="soluciones.html">Soluciones</a>
+        <a href="casos-de-exito.html">Casos de Éxito</a>
+      </div>
+      <div class="footer-social">
+        <a class="footer-social-icon" href="https://www.linkedin.com/in/marjorie-cordova-291a7262/" target="_blank" rel="noopener" aria-label="LinkedIn de Marjorie Córdova">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Sistemas con Propósito. Marjorie Córdova Milla</span>
+      <span>© 2026 Escalando con Propósito</span>
       <span>Lima, Perú</span>
     </div>
   </div>
 </footer>
 
-<script defer src="assets/js/main.js?v=20260731"></script>
+<script defer src="assets/js/main.js?v=20261111b"></script>
 </body>
 </html>
