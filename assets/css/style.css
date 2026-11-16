@@ -1507,3 +1507,13 @@ a.footer-social-icon:hover { background: var(--accent); border-color: var(--acce
 
 /* El header usa .container.nav: conserva el margen lateral en móvil */
 .container.nav { padding: 1.15rem 1.5rem; }
+
+.pricing-grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 860px; margin-inline: auto; }
+@media (max-width: 760px) { .pricing-grid--two { grid-template-columns: 1fr; } }
+
+/* Lista de aprendizajes con enlaces (Inicio) */
+.takeaways-list--links li { padding: 0; }
+.takeaways-list--links a { display: flex; align-items: center; gap: 0.9rem; padding: 1rem 1.2rem; width: 100%; color: var(--text); text-decoration: none; }
+.takeaways-list--links a:hover { color: var(--accent-light); }
+.takeaways .btn { margin-top: 1.5rem; }
+.price-card .btn-ghost { margin-top: 1.2rem; }
